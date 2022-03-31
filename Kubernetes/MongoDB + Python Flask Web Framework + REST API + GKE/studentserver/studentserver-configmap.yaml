@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: studentserver-config
+data:
+  # SERVICE_NAME.NAMESPACE.svc.cluster.local:SERVICE_PORT
+  MONGO_URL: 35.197.47.0
+  MONGO_DATABASE: mydb
